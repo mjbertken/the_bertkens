@@ -257,7 +257,7 @@ jQuery(document).ajaxStart(function () {
 /* Countdown */	
 /*==========================*/
 
- $(".clock").countdown('2017/02/11', function(event) {
+ $(".clock").countdown('2018/10/13', function(event) {
     $(this).html(event.strftime('<span>%D <b>days</b></span> <span>%H<b>hours</b></span> <span>%M<b>minutes</b></span> <span>%S<b>seconds</b></span>'));
   });
 	
