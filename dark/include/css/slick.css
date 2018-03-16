@@ -18,8 +18,8 @@
 .slick-vertical .slick-slide { display: block; height: auto; border: 1px solid transparent; }
 .slick-arrow.slick-hidden { display: none; }
 /* Slider */
-.slick-arrow{font-weight:700; text-transform:uppercase; color:#fff; background:#ce9f51; padding:8px 15px; border:0; font-size:12px; line-height:20px; z-index:9; position:absolute; right:-15px; top:40px; box-shadow:-5px 5px 20px rgba(0,0,0,0.25);}
-.slick-prev{top:auto; left:-15px; right:auto; bottom:40px; box-shadow:5px 5px 20px rgba(0,0,0,0.25);}
+.slick-arrow{font-weight:700; text-transform:uppercase; color:#fff; background:#ce9f51; padding:8px 15px; border:0; font-size:12px; line-height:20px; z-index:9; position:absolute; right:15px; top:40px; box-shadow:-5px 5px 20px rgba(0,0,0,0.25);}
+.slick-prev{top:auto; left:15px; right:auto; bottom:40px; box-shadow:5px 5px 20px rgba(0,0,0,0.25);}
 /* Arrows 
 .slick-prev, .slick-next { z-index:99; font-size: 0; line-height: 0; position: absolute; top: 100%; display: block; width: 40px; height: 40px; padding: 0; cursor: pointer; color: transparent; border: none; outline: none; background: transparent; margin:25px 0 0; }
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus { color: transparent; outline: none; background: transparent; }
