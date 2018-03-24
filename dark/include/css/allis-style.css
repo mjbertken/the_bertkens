@@ -1,0 +1,94 @@
+
+body{
+    padding-top:30px;
+    background-color:#fff;
+}
+div.header{
+    position: fixed;
+    z-index: 99999;
+    /* color: white; */
+    color:rgba(0,0,0,0.5);
+    background-color:rgba(255,255,255,1);
+    /* color: rgb(51, 66, 78); */
+    /* background-color:rgba(0,0,0,0.2); */
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    text-align:center;
+    /* padding:10px; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size: 14px;
+    text-transform:uppercase;
+    }
+    div.header ul{
+        border-radius: 0 0 5px 5px;
+        
+        display:inline-block;
+        text-align:center !important;
+        list-style-type: none !important;
+        -webkit-margin-before: 0 !important;
+        -webkit-margin-after: 0 !important;
+        -webkit-margin-start: 0 !important;
+        -webkit-margin-end: 0 !important;
+        -webkit-padding-start: 0 !important;
+    }
+    div.header ul li{
+        display:inline-block;
+        /* margin: 0 25px; */
+        text-align:center !important;
+    }
+    div.header ul li:hover{
+        cursor: pointer;
+    }
+    div.header ul li {
+        padding: 5px 0;
+    }
+    div.header ul li > a{
+        padding: 0 25px;
+    }
+    .dropbtn:after {
+        content: '\f35f';
+        margin-left:3px;
+        font-family: 'Ionicons';
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        padding-top:5px;
+        display: none;
+        position: absolute;
+        background-color:transparent;
+        min-width: 180px;
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color:rgba(0,0,0,0.5);
+        padding: 10px 16px;
+        background-color:rgba(255,255,255,1);
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    div.header li:hover{
+        /* background-color:rgba(0,0,0,0.8); */
+        background-color:rgba(255, 255, 255,1);
+        color:rgba(0,0,0,1);
+    }
+    div.header li:hover > a{
+        color:rgba(0,0,0,1);
+    }
+    div.header li.dropdown .dropdown-content a:hover{
+        background-color:rgba(255, 255, 255,1);
+        color:rgba(0,0,0,1);
+        transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -webkit-transition: none;
+        -ms-transition: none;
+    }

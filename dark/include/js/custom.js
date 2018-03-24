@@ -33,36 +33,36 @@ jQuery(document).ready(function($){
 /* Main Navigation */	
 /*==========================*/
 	
-	(function() {
-		var menuEl = document.getElementById('ml-menu'),
-			mlmenu = new MLMenu(menuEl, {
-				// breadcrumbsCtrl : true, // show breadcrumbs
-				  initialBreadcrumb : 'Menu', // initial breadcrumb text
-				backCtrl : true, // show back button
-				// itemsDelayInterval : 60, // delay between each menu item sliding animation
+	// (function() {
+	// 	var menuEl = document.getElementById('ml-menu'),
+	// 		mlmenu = new MLMenu(menuEl, {
+	// 			// breadcrumbsCtrl : true, // show breadcrumbs
+	// 			  initialBreadcrumb : 'Menu', // initial breadcrumb text
+	// 			backCtrl : true, // show back button
+	// 			// itemsDelayInterval : 60, // delay between each menu item sliding animation
 				
-			});
+	// 		});
 
-		// mobile menu toggle
-		var openMenuCtrl = document.querySelector('.action--open'),
-			closeMenuCtrl = document.querySelector('.action--close');
+	// 	// mobile menu toggle
+	// 	var openMenuCtrl = document.querySelector('.action--open'),
+	// 		closeMenuCtrl = document.querySelector('.action--close');
 
-		openMenuCtrl.addEventListener('click', openMenu);
-		closeMenuCtrl.addEventListener('click', closeMenu);
+	// 	openMenuCtrl.addEventListener('click', openMenu);
+	// 	closeMenuCtrl.addEventListener('click', closeMenu);
 
-		function openMenu() {
-			classie.add(menuEl, 'menu--open');
-		}
+	// 	function openMenu() {
+	// 		classie.add(menuEl, 'menu--open');
+	// 	}
 
-		function closeMenu() {
-			classie.remove(menuEl, 'menu--open');
-		}
+	// 	function closeMenu() {
+	// 		classie.remove(menuEl, 'menu--open');
+	// 	}
 
-		// simulate grid content loading
-		var gridWrapper = document.querySelector('.content');
+	// 	// simulate grid content loading
+	// 	var gridWrapper = document.querySelector('.content');
 
 		 
-	})();
+	// })();
 	
 	
  /*==========================*/	
